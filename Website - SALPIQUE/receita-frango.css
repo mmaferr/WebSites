@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500&family=Inter:wght@400;500;600&family=Montserrat:wght@700;800&family=Righteous&family=Sarala&family=Satisfy&family=Schoolbell&family=Teko:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #1F1517;
+    color: #ffffff;
+    
+}
+
+html {
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+}
+a {
+    text-decoration: none;
+    color: #FFF2E780;
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    max-width: 1120px;
+    margin: auto;
+    padding: 1.5rem 10rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: Teko;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    color: #FFF2E780;
+    background: #1F1517;
+}
+
+.github {
+    color: #FFF2E7;
+    font-weight: 600;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    background: #181012;
+
+    max-width: 1440px;
+    height: 70vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6rem;
+
+    padding: 0rem 10rem;
+    margin: auto;
+    overflow: clip;
+}
+
+.hero-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;    
+}
+
+.destaque {
+    font-family: Epilogue;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.marrom {
+    color: #A45A49;
+}
+
+.amarelo {
+    color: #E7A80E;
+}
+
+.cinza {
+    color: #4a413e;
+}
+
+h1 {
+    font-family: Montserrat;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+hr {
+    border-color: #A45A49;
+}
+
+.hero-subtitulo {
+    color: #C7BAB3;
+    font-family: Inter;
+    font-size: 1.1rem;
+    font-weight: 400;
+    width: 28.7rem;
+}
+
+.autor-container {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+.autor > img {
+    border-radius: 20rem;
+    width: 2.5rem;
+    
+}
+
+.autor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.autor-nome {
+    color: #C7BAB3;
+    font-family: Inter;
+    font-size: 1.1rem;
+    font-weight: 600;
+
+    color: #C7BAB3;
+}
+
+.autor-descricao {
+    font-family: Inter;
+    font-size: 0.8rem;
+    font-weight: 500;
+
+    color: #756A67;
+
+}
+
+.destaque-detalhes {
+    display: flex;
+    font-size: 1.2rem;
+    font-family: Epilogue;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.detalhes-card {
+    display: flex;
+    background: #1F1517;
+    border-radius: 0.5rem;
+    flex-direction: column;
+    flex-basis: 33rem;
+    padding: 2rem;
+    width: 37rem;
+    height: 20rem;
+    justify-content: space-between;
+}
+
+
+
+.receitas-titulo {
+    color: #FFF2E7;
+    font-family: Montserrat;
+    font-size: 1.17rem;
+    font-weight: 700;
+}
+
+.avaliacao {
+    color: #756A67;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.barato {
+    display: flex;
+    flex-direction: row;
+    gap: 0.75rem;
+}
+
+.barato > hr{
+    width: 6rem;
+    height: 0.3rem;
+    border: none;
+    border-radius: 0.25rem;
+    margin-top: 1rem;
+}
+
+.linha-marrom {
+    background-color: #A45A49;
+}
+.linha-cinza {
+    background-color: #23181A;
+}
+
+.detalhes-card-informacoes-beneficio {
+    display: flex;
+    flex-direction: row;
+    align-items:baseline;
+    gap: 8rem;
+} 
+
+.detalhes-card-informacoes-dificuldade {
+    display: flex;
+    flex-direction: row;
+    align-items:baseline;
+    gap: 5.2rem;
+}
+
+.detalhes-card-informacoes-usuarios {
+    display: flex;
+    flex-direction: row;
+    align-items:baseline;
+    gap: 3.3rem;
+}
+
+.preparo-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-left: 7.5rem;
+    margin-right: 5rem;
+}
+.preparo {
+    width: 47rem;
+    height: 20rem;
+    background: #23181A;
+    align-items: flex-start;
+    padding: 1.5rem;
+    
+    
+    border-radius: 0.5rem;
+}
+
+.preparo-titulo {
+    color: #FFF2E7;
+
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.preparo-legenda {
+    color: #C7BAB3;
+
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.preparo-cabecario {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    margin-bottom: 2rem;
+}
+
+
+.passo-a-passo {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;    
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+    
+.passo{
+    display: flex;    
+    width: 2rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    background: #A45A49;
+    padding: 0.5rem;
+}
+
+.passo-subtitulo {
+    color: #C7BAB3;
+    font-family: Inter;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.ingredientes {
+    width: 20rem;
+    height: 17.3rem;
+    background: #23181A;
+    margin-left: 2rem;
+    margin-right: 4rem;
+
+    align-items: flex-start;
+    padding: 1.5rem;
+    
+    border-radius: 0.5rem;
+}
+
+.ingredientes-legenda {
+    color: #C7BAB3;
+
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+.check {
+    border: none;
+    padding: 0.1rem;
+    border-radius: 0.5rem;
+    background: #19d32f;
+    margin-right: 0.5rem;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+
+.item-quantidade {
+    color: #A45A49;
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-left: 1rem;
+}
+
+/*ocultando a caixa padrão */
+input[type="checkbox"] {
+    display: none;
+}
+
+ /* Estilizando a área ao redor do checkbox para criar um estilo de checkbox personalizado */
+input[type="checkbox"] + label {
+    position: relative;
+    padding-left: 30px; /* Ajuste de espaçamento entre a área do checkbox e o texto */
+    cursor: pointer;
+    display: inline-block;
+    color: #C7BAB3;
+
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+}
+
+/* Estilizando o visual da caixa de seleção */
+input[type="checkbox"] + label::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px; /* Tamanho da caixa de seleção */
+    height: 20px;
+    border: 2px solid rgb(80, 57, 61); /* Cor da borda da caixa de seleção */
+    background-color: #422e31; /* Cor de fundo da caixa de seleção */
+    border-radius: 0.5rem;
+}
+
+/* Estilizando a marca de seleção quando o checkbox está marcado */
+input[type="checkbox"]:checked + label::before {
+    background-color: #19d32f; /* Nova cor de fundo quando marcado */
+    border-color: #19d32f; /* Nova cor da borda quando marcado */
+    content: '\2713'; /* Código Unicode para o símbolo de check */
+    text-align: center;
+    font-size: 16px;
+    color: #fff; /* Cor do símbolo de check */
+}
