@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SALPIQUE</title>
+    <meta name="description" content="Explore dezenas de variações da bebida favorida entre os devs ao redor do mundo">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <span class="logo">salpique</span>
+            <ul class="menu">
+                <li><a  href="index.html">Home</a></li>
+                <li><a href="receitas.html">Receitas</a></li>
+                <li><a href="novidades.html">Novidades</a></li>
+                <li><a href="melhor.html">Melhor avaliadas</a></li>
+            </ul> 
+            <a class="github" href="https://github.com/mmaferr">GitHub</a>          
+        </nav>
+    </header>
+    <main>
+        <div class="principal">
+            <section class="hero">
+                <header class="hero-conteudo">
+                    <span class="destaque marrom">novidade</span>
+                    <h1>Encontre o salpicão perfeito</h1>
+                    <hr>
+                    <h2 class="hero-subtitulo">Explore dezenas de variações do acompanhamento favorito entre os brasileiros</h2>
+                </header>
+                <div class="hero-imagens-container">
+                    <figure><img src="https://i.pinimg.com/564x/0b/92/1d/0b921d4f0925df0fc71bc6360d56186c.jpg"></figure>
+                    <figure><img src="https://i.pinimg.com/564x/17/97/8a/17978ae78f671a7f60c103a4b2316e2c.jpg"></figure>
+                    <figure><img src="https://i.pinimg.com/564x/7d/73/3b/7d733b8a4711fd0f75ec4a6223f71a27.jpg"></figure>
+                    <figure><img src="https://i.pinimg.com/564x/ea/a0/d0/eaa0d03d606400f4ac99b24067a4f906.jpg"></figure>
+                    <figure><img src="https://i.pinimg.com/564x/91/00/f0/9100f02c25153f5df0f24787667ab8c9.jpg"></figure>
+                    <figure><img src="https://i.pinimg.com/564x/b6/f0/e8/b6f0e831f2e3751564302f0250b5802b.jpg"></figure>
+                    <figure><img src="https://i.pinimg.com/564x/76/b3/d3/76b3d3b3376120d85e884bf2b4edc378.jpg"></figure>
+                    <figure><img src="https://i.pinimg.com/564x/45/12/18/451218243bf23e51280fcdc065e87c52.jpg"></figure>
+                    <figure><img src="https://i.pinimg.com/564x/f4/ff/78/f4ff7834746244634449b6f5cbcd60ad.jpg"></figure>
+                    <figure><img src="https://i.pinimg.com/564x/81/d4/13/81d413de24ab568fbbd2dd0152d78149.jpg"></figure>
+                    <figure><img src="https://i.pinimg.com/564x/c9/bd/7c/c9bd7caf245ff5760d466edd4de6018f.jpg"></figure>
+                    <figure><img src="https://i.pinimg.com/564x/0b/39/e4/0b39e4e30380c7dc9973421bf4dc865a.jpg"></figure>
+                </div>
+            </section>
+        </div>
+        <section class="botao-container">
+            <button type="button" class="scroll-button" onclick="scrollToSection('receitas')">
+                <img src="assets/chevrons-down.svg">
+            </button>
+        </section>
+        <section id="receitas" class="receitas">
+            <header class="receitas-cabecalho">
+                <span class="destaque marrom">receitas</span>
+                <h2 class="receitas-titulo">Confira as últimas receitas</h2>
+                <p class="receitas-subtitulo">Dê uma olhada nas receitas mais amadas!</p>
+            </header>
+            <div class="receitas-card-container">
+                <a href="receita-frango.html">
+                    <div class="receitas-card">
+                        <header class="receitas-card-cabecalho">
+                            <div class="receitas-card-cabecalho-detalhes">
+                                <span class="destaque amarelo">em alta 🔥</span>
+                                <h3 class="receitas-titulo">Salpicão de frango</h3>
+                            </div>
+                            <p class="receitas-avaliacao">Extraordinário 4/4</p>
+                            
+                        </header>
+                        <p class="receita-descricao">Um acompanhamento delicioso para todas as horas 😍</p>
+                        <div class="receita-autor">
+                            <img src="https://64.media.tumblr.com/71d897577f96369b8833c01d6e09d2be/2b3489cb1ad35ac4-3f/s400x600/77dd1c9b24650ae4b7cad9ef41c2bf5bde6697d0.png">
+                            <span class="receita-autor-nome">Taylor Swift</span>
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="receita-macarrao.html">
+                    <div class="receitas-card">
+                        <header class="receitas-card-cabecalho">
+                            <div class="receitas-card-cabecalho-detalhes">
+                                <span class="destaque marrom">novo</span>
+                                <h3 class="receitas-titulo">Macarrão + Salpicão</h3>
+                            </div>
+                            <p class="receitas-avaliacao">Extraordinário 4/4</p>
+                            
+                        </header>
+                        <p class="receita-descricao">Nunca pensei que diria isso, mas concordo com a Taylor</p>
+                        <div class="receita-autor">
+                            <img src="https://s2-quem.glbimg.com/K-yI9SyCb5HzQjx51LpbfU8azfI=/48x0:568x520/fit-in/636x520/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_b0f0e84207c948ab8b8777be5a6a4395/internal_photos/bs/2022/c/p/mt8TzETbqajAy0gKKK2A/2021-01-07-kanye-west.jpeg">
+                            <span class="receita-autor-nome">Kanye West</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="receita-peru.html">
+                    <div class="receitas-card">
+                        <header class="receitas-card-cabecalho">
+                            <div class="receitas-card-cabecalho-detalhes">
+                                <span class="destaque marrom">novo</span>
+                                <h3 class="receitas-titulo">Salpicão de Peru</h3>
+                            </div>
+                            <p class="receitas-avaliacao">Extraordinário 4/4</p>
+                            
+                        </header>
+                        <p class="receita-descricao">Uma comida ideal para os amantes de torta gelada. 😍</p>
+                        <div class="receita-autor">
+                            <img src="https://avatars.githubusercontent.com/u/54322854?v=4">
+                            <span class="receita-autor-nome">Maria Fernanda</span>
+                        </div>
+                    </div> 
+                </a>
+                
+                <a href="receita-torta.html">
+                    <div class="receitas-card">
+                        <header class="receitas-card-cabecalho">
+                            <div class="receitas-card-cabecalho-detalhes">
+                                <span class="destaque marrom">novo</span>
+                                <h3 class="receitas-titulo">Torta de Salpicão</h3>
+                            </div>
+                            <p class="receitas-avaliacao">Extraordinário 4/4</p>
+                            
+                        </header>
+                        <p class="receita-descricao">Uma comida ideal para os amantes de torta gelada. 😍</p>
+                        <div class="receita-autor">
+                            <img src="https://avatars.githubusercontent.com/u/54322854?v=4">
+                            <span class="receita-autor-nome">Maria Fernanda</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="footer-copy">Copyright &lt;CODESALPIC /&gt; 2023</p>
+        <p class="footer-autor">Feito com muito ❤ e sapicão por Maria Fernanda</p>
+    </footer>
+
+<script>
+        function scrollToSection(sectionId) {
+            var section = document.getElementById(sectionId);
+            if (section) {
+                section.scrollIntoView({ behavior: 'smooth' }); // Rola suavemente para a seção
+            }
+        }
+
+        
+    </script>
+</body>
+</html>
